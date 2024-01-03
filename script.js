@@ -157,24 +157,24 @@
 // xxxx
 // xxxxx
 
-let Array = [];
-let n = 0;
-let m = 9;
-let count = 5;
-let sum = 0;
-for(let i = 0; i <= count; i++) {
-        Array.push(Math.round(Math.random() * (m - n)));
-    console.log(Array);
-    }
-
-for(let i = 1; i < Array.length; i++) {
-        sum += Array[i];
-        if (Array[i] === 3){
-            console.log(`it is number 3!`);
-        } else
-        {
-            console.log("Такого числа нет");
-        }
-    }
-
-console.log("Sum is " + sum)
+// let Array = [];
+// let n = 0;
+// let m = 9;
+// let count = 5;
+// let sum = 0;
+// for(let i = 0; i <= count; i++) {
+//         Array.push(Math.round(Math.random() * (m - n)));
+//     console.log(Array);
+//     }
+//
+// for(let i = 1; i < Array.length; i++) {
+//         sum += Array[i];
+//         if (Array[i] === 3){
+//             console.log(`it is number 3!`);
+//         } else
+//         {
+//             console.log("Такого числа нет");
+//         }
+//     }
+//
+// console.log("Sum is " + sum)
